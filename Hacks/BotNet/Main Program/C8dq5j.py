@@ -252,10 +252,9 @@ def DDOS(TargetDN,TargetIP,TargetPort):
     ListString="\n".join(SemiRawListString.split("\n")[1:300-Lines])
 
 
-    #PREPEI NA VRISKEI TO ARXEIO KAI NA TO DIMIOURGEI STOU ALLOUNOU TO PC OXI STO DIKO SOU EXIPNE
     #with open(Path+"DetailedProxyList.txt","w") as File:
     #    File.write(ListString)
-    #NOMIZO AUTI EINAI I LISI
+
     
     with open(r"C:\Users\peter\Documents\Programming\Python\Python_Projects\Hacks\WebScraper\DetailedProxyList.txt","w") as File:
         File.write(ListString)
