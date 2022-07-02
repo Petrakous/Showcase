@@ -96,7 +96,7 @@ The Mini Games folder includes the following:
 - Hangman.py
   The Hangman.py script is the first program i made with GUI. The purpose of the game is to find the Hidden word by guessing letters or the whole word. If you make a wrong guess a Stickman part is drawn on the window. If the Stickman figure is completed the player loses.
 
-**3. LAN Rock Paper Scissors**
+**3. Rock Paper Scissors (LAN)**
 
 This program was made to fuction on online mode via LAN. 2 Players in the same network connect to a server (which is also on the local network) and play. This program is also made with GUI and has a restart button which can restart the game for both players when clicked so they can play again.
 
