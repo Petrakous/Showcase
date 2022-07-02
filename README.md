@@ -16,13 +16,15 @@ The folder BotNet has 3 subfolder which have tools that compile the main program
 - **1A. Main Program**
   
    - Server.py
-The server script is the host that handles all conections and is normally used by the hacker, via this program the hacker has access to the infected systems and can command and operate them remotelly. Specifically the hacker has access to the connected system's Command Promt, Keyboard data, and can command the system to DoS* attack a given IP address or domain on a specific port.
+
+      The server script is the host that handles all conections and is normally used by the hacker, via this program the hacker has access to the infected systems and can command and operate them remotelly. Specifically the hacker has access to the connected system's Command Promt, Keyboard data, and can command the system to DoS* attack a given IP address or domain on a specific port.
   
    - C8dq5j.py
-This is the client script which infects a computer system. When opened, the script tries to find the file path to itself inside the computer's files which makes the creation and deletion of some files easier (The file name was randomly generated so it can be unique in someones system, otherwise the script could fail finding the path to itself therefore the program wouldnt be useable). Afterwars, it creates a System information file (.NFO) in a .txt type which is used to copy the computers name and set it as the connections nickname. After that, it connects immediately to the server with the, previously mentioned, nickname. At this point the server/hacker has full access to the following things:
-Send commands and receive outputs from Windows Command Prompt.
-Receive all keyboard keypresses from the moment the Client program was launched and forward.
-Command system to DoS* Attack a given IP or domain on a specific port.
+
+      This is the client script which infects a computer system. When opened, the script tries to find the file path to itself inside the computer's files which makes the creation and deletion of some files easier (The file name was randomly generated so it can be unique in someones system, otherwise the script could fail finding the path to itself therefore the program wouldn't be useable). Afterwards, it creates a System information file (.NFO) in a .txt type which is used to copy the computers name and set it as the connections nickname. After that, it connects immediately to the server with the, previously mentioned, nickname. At this point the server/hacker has full access to the following things:
+      - Send commands and receive outputs from Windows Command Prompt.
+      - Receive all keyboard keypresses from the moment the Client program was launched and forward.
+      - Command system to DoS* Attack a given IP or domain on a specific port.
 
   - The program is also undetectable from most antiviruses including Kaspersky, Bitdefender, Avast, Malwarebytes and other popular alternatives.
 
@@ -58,7 +60,7 @@ Command system to DoS* Attack a given IP or domain on a specific port.
 - BruteForce.py
   > *«A brute force attack uses trial-and-error to guess login info, encryption keys, or find a hidden web page. Hackers work through all possible combinations hoping to guess correctly.» -Kaspersky*
 
-  The BruteForce.py script works by giving it a password that can contain Characters, Numbers and Symbols and then tries to find it by trying all the possible combinations. Before that though the 2 .txt files*** (which contain the commonly used passwords) are read to try and find a match.
+  The BruteForce.py script works by giving it a password that can contain Characters, Numbers and Symbols and then tries to find it by making all the possible combinations. Before that though the 2 .txt files*** (which contain commonly used passwords) are read to try and find a match.
 
 **3. IPCatcher**
 
