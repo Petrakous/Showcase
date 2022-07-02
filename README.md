@@ -11,7 +11,7 @@ Hacks is a folder which includes some tools that hackers use to gain illegal acc
 
 > *«Botnets are networks of hijacked computer devices used to carry out various scams and cyberattacks. The term “botnet” is formed from the word’s “robot” and “network”. The bots serve as a tool to automate mass attacks, such as data theft, server crashing, and malware distribution.» -Kaspersky*
 
-The folder BotNet has 3 subfolder which have tools that compile the main program which is inside the "Main Program" folder. The main program is divided in 2 scripts of which the one is the server and the other is the client.
+The folder BotNet has 3 subfolders which have tools that compile the main program which is inside the "Main Program" folder. The main program is divided in 2 scripts of which the one is the server and the other is the client.
 
 - **1A. Main Program**
   
