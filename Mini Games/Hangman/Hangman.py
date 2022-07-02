@@ -16,7 +16,7 @@ def Main():
     PrintResult=""
     PrintHidden=""
     PrintInstruction=""
-    Awnser=""
+    Answer=""
     Word=""
     Guess=""
     PreviousGuess=""
@@ -81,15 +81,15 @@ def Main():
                 if Active:
                     if event.key==pg.K_RETURN:
                         if Word=="":
-                            Word=Awnser
-                            Awnser=""
+                            Word=Answer
+                            Answer=""
                         elif Word!="":
-                            Guess=Awnser
-                            Awnser=""
+                            Guess=Answer
+                            Answer=""
                     elif event.key==pg.K_BACKSPACE:
-                        Awnser=Awnser[:-1]
+                        Answer=Answer[:-1]
                     else:
-                        Awnser+=event.unicode
+                        Answer+=event.unicode
         if Word=="":
             PrintInstruction="Enter word to find :"
         elif not Won:
@@ -135,12 +135,12 @@ def Main():
         elif Guess!="" and (not Won):
                 Wrong+=1
                 Guess=""
-                PrintResult="Wrong Awnser"
+                PrintResult="Wrong Answer"
                 
 
         Screen.fill((30, 30, 30))
         # Render the current text.
-        Txt_Surface=InputFont.render(Awnser, True, Color)
+        Txt_Surface=InputFont.render(Answer, True, Color)
         # Resize the box if the text is too long.
         Width=max(200, Txt_Surface.get_width()+10)
         Input_box.w=Width
