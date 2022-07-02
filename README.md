@@ -5,7 +5,7 @@ Over the last year i made several programs of which the best are listed in this 
 
 # HACKS
 
-Hacks is a folder which includes some tools that hackers use to gain illegal access to data from (a computer network, system, etc.). Obviously i have never used any of these tools illegaly neither have the intension to. However i made these programs for educational purposes only.
+Hacks is a folder which includes some tools that hackers use to gain illegal access to data from (a computer network, system, etc.). Obviously i have never used any of these tools illegaly, neither have the intension to. I made these programs for educational purposes only.
 
 **1. BotNet**
 
