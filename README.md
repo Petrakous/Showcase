@@ -89,7 +89,7 @@ The Mini Games folder includes the following:
 **1. Guess The Number**
 
 - Guess The Number.py
-  The Guess The Number.py script is one of my first Mini Games and is pretty simple. A random number between 1 and 100 is generated and the player tries to find it by guessing. When a wrong awnser is entered the program tells the player if the correct awnser is higher or lower than the awnser given.
+  The Guess The Number.py script is one of my first Mini Games and is pretty simple. A random number between 1 and 100 is generated and the player tries to find it by guessing. When a wrong answer is entered the program tells the player if the correct answer is higher or lower than the answer given.
 
 **2. Hangman**
 
