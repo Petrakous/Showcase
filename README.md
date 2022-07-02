@@ -3,7 +3,7 @@ These programs are the ones noted on my CV.
 
 Over the last year i made several programs of which the best are listed in this repository. Below i mention the description of each file.
 
-# HACKS
+# Hacks
 
 Hacks is a folder which includes some tools that hackers use to gain illegal access to data from (a computer network, system, etc.). Obviously i have never used any of these tools illegaly, neither have the intension to. I made these programs for educational purposes only.
 
