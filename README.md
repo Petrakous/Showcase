@@ -35,7 +35,7 @@ The folder BotNet has 3 subfolders which have tools that compile the main progra
 
     > *«Distributed Denial of Service (DDoS) attacks take advantage of the specific capacity limits that apply to any network resources – such as the infrastructure that enables a company’s website. The DDoS attack will send multiple requests to the attacked web resource – with the aim of exceeding the website’s capacity to handle multiple requests, and prevent the website from functioning correctly.» -Kaspersky*
 
-    This script was created to do exactly whats mentioned above. It can send hundreds or even thousands (depending on the systems CPU and Network resources) of requests every second, to a website. It also has the feature of hiding the system's real identity by sending requests through Anonymous proxies**.
+    This script was created to do exactly whats mentioned above. It can send hundreds or even thousands (depending on the systems CPU and Network resources) of requests every second to a website. It also has the feature of hiding the system's real identity by sending requests through Anonymous proxies**.
 
 - **C. KeyboardRecorder**
 
@@ -51,7 +51,7 @@ The folder BotNet has 3 subfolders which have tools that compile the main progra
 
     > *«Web scraping is the process of using bots to extract content and data from a website. The purpose of scraping can be analysis of information retrieved, content theft, or database filling. It extracts underlying HTML code and, with it, data stored in a database. The scraper can then replicate entire website content elsewhere.» -Karspersky / Impreva.com*
 
-    The Proxies.py script is used in association with the DDoSAttack.py script to renew the proxies that are used in a DDoS attack. This is helpful because not all proxy servers are always online, so they need to be renewed every time manually. This script automates this process by connecting to a website named "freeproxylists.net" and downloading the HTML code in order to renew the proxies. It also issolates the proxies that are anonymous or elite (which are the ones that provide anonymity to the web).
+    The Proxies.py script is used in association with the DDoSAttack.py script to renew the proxies that are used in a DDoS attack. This is helpful because not all proxy servers are always online, so they need to be renewed every time manually. This script automates this process by connecting to a website named "freeproxylists.net" and downloading the HTML code in order find the proxies and renew its own proxies list. It also issolates the proxies that are anonymous or elite (which are the ones that provide anonymity to the web) and ignores the transparent ones (which don't provide anonymity).
 
 
 
@@ -110,7 +110,7 @@ The Client.py script is the program that provides the Graphical Interface and al
 
 
 
-**For clarification purposes, DDoS means Distributed Denial of Service, when it happens from one system the term Distributed makes no sense thats why its called DoS Attack*
+**For clarification purposes, DDoS means Distributed Denial of Service, when it happens from one system the term **"Distributed"** makes no sense thats why its called DoS Attack*
 
 ***A proxy server is a system or router that stands between users and the internet. It performs the function of a firewall and filter and is designed to protect data and privacy. It applies rules to prevent you from having to expose your digital address to the world. Only the proxy’s IP address is visable to others. Without your personal IP address, people on the internet do not have direct access to your personal data, schedules, apps, or files.*
 
