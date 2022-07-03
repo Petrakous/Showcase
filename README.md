@@ -35,7 +35,7 @@ The folder BotNet has 3 subfolders which have tools that compile the main progra
 
     > *«Distributed Denial of Service (DDoS) attacks take advantage of the specific capacity limits that apply to any network resources – such as the infrastructure that enables a company’s website. The DDoS attack will send multiple requests to the attacked web resource – with the aim of exceeding the website’s capacity to handle multiple requests, and prevent the website from functioning correctly.» -Kaspersky*
 
-    This script was created to do exactly whats mentioned above. It can send hundreds or even thousands (depending on the systems CPU and Network resources) of requests per system every second, to a website. It also has the feature of hiding the systems real identity by sending requests through Anonymous proxies**.
+    This script was created to do exactly whats mentioned above. It can send hundreds or even thousands (depending on the systems CPU and Network resources) of requests every second, to a website. It also has the feature of hiding the system's real identity by sending requests through Anonymous proxies**.
 
 - **C. KeyboardRecorder**
 
