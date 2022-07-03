@@ -51,7 +51,7 @@ The folder BotNet has 3 subfolders which have tools that compile the main progra
 
     > *«Web scraping is the process of using bots to extract content and data from a website. The purpose of scraping can be analysis of information retrieved, content theft, or database filling. It extracts underlying HTML code and, with it, data stored in a database. The scraper can then replicate entire website content elsewhere.» -Karspersky / Impreva.com*
 
-    The Proxies.py script is used in association with the DDoSAttack.py script to renew the proxies that are used in a DDoS attack. This is helpful because not all proxy servers are always online, so they need to be renewed every time manually. This script automates this process by connecting to a website named "freeproxylists.net" and downloading the HTML code in order find the proxies and renew its own proxies list. It also issolates the proxies that are anonymous or elite (which are the ones that provide anonymity to the web) and ignores the transparent ones (which don't provide anonymity).
+    The Proxies.py script is used in association with the DDoSAttack.py script to renew the proxies that are used in a DDoS attack. This is helpful because not all proxy servers are always online, so they need to be renewed every time manually. This script automates this process by connecting to a website named "freeproxylists.net" and downloading the HTML code in order find the proxies and renew its own proxies list. It also issolates the proxies that are anonymous or elite (which are the ones that provide anonymity to the web) and ignores the transparent ones (which don't provide anonymity to the web).
 
 
 
@@ -60,22 +60,20 @@ The folder BotNet has 3 subfolders which have tools that compile the main progra
 - BruteForce.py
   > *«A brute force attack uses trial-and-error to guess login info, encryption keys, or find a hidden web page. Hackers work through all possible combinations hoping to guess correctly.» -Kaspersky*
 
-  The BruteForce.py script works by giving it a password that can contain Characters, Numbers and Symbols and then tries to find it by making all the possible combinations. Before that though the 2 .txt files*** (which contain commonly used passwords) are read to try and find a match.
+  The BruteForce.py script works by giving it a password that can contain Characters, Numbers and Symbols and then tries to find it by making all the possible combinations. Before that though the two .txt files*** (which contain commonly used passwords) are read to try and find a match.
 
 **3. IPCatcher**
 
 - IPGrabber.py
   > *«An IP grabber is a third-party service that allows internet users to generate a link for detecting the IP address of anyone. All you need to do is have your target click the link.» -makeuseof.com*
 
-  The IPGrabber.py script has the ability to write the computer's Public IP in a file and send it to a web server through FTP (File Transfer Protocol) from where a hacker can see it.
+  The IPGrabber.py script automates the above process. When opened, it connects to a website with the url: "api.ipify.org" which only contains the systems Public IP address. It takes the computer's Public IP, writes it in a file and sends it to a web server through FTP (File Transfer Protocol) from where it's accesible.
 
 **4. MemoryAllocationOverload**
 
 - MemoryAllocationOverload.py
-  The MemoryAllocationOverload.py script is more of a fun made tool rather than a hacker tool. It's purpose is to overload your RAM by making massive lists in python, over and over again in a loop, which make your system very laggy or even unusable. However it can be fixed with a simple system restart.
 
-
-
+  The MemoryAllocationOverload.py script is more of a fun made tool rather than a hacker tool. It's purpose is to overload the system's RAM by making massive lists in python, over and over again in a loop, which makes your system very laggy or even unusable. However it can be fixed with a simple system restart.
 
 # Mini Games
 
@@ -89,26 +87,26 @@ The Mini Games folder includes the following:
 **1. Guess The Number**
 
 - Guess The Number.py
-  The Guess The Number.py script is one of my first Mini Games and is pretty simple. A random number between 1 and 100 is generated and the player tries to find it by guessing. When a wrong answer is entered the program tells the player if the correct answer is higher or lower than the answer given.
+
+  The Guess The Number.py script was one of my first Mini Games and is pretty simple. A random number between 1 and 100 is generated and the player tries to find it by guessing. When a wrong answer is entered the program tells the player if the correct answer is higher or lower than the answer given.
 
 **2. Hangman**
 
 - Hangman.py
-  The Hangman.py script is the first program i made with GUI. The purpose of the game is to find the Hidden word by guessing letters or the whole word. If you make a wrong guess a Stickman part is drawn on the window. If the Stickman figure is completed the player loses.
+
+  The Hangman.py script is the first program i made with GUI. The purpose of the game is to find the Hidden word by guessing letters or the whole word. If you make a wrong guess a Stickman starts being drawn on the window. If the Stickman figure is completed the player loses.
 
 **3. Rock Paper Scissors (LAN)**
 
-This program was made to fuction on online mode via LAN. 2 Players in the same network connect to a server (which is also on the local network) and play. This program is also made with GUI and has a restart button which can restart the game for both players when clicked so they can play again.
+This program was made to fuction on online mode via LAN. 2 Players in the same network connect to a server (which is also on the local network) and play. This program is also made with GUI and has a restart button feature which can restart the game for both players when clicked.
 
 - Server.py
-The Server.py script is the host that handles the players moves and calculates the result (Who Won or if it was a Tie).
+
+  The Server.py script is the host that handles the players moves and calculates the result (Who Won or if it was a Tie).
 
 - Client.py
-The Client.py script is the program that provides the Graphical Interface and alows the players to choose Nickname and their move (Rock,Paper or Scissors). When a player chooses a nickname or makes a move, the client program sends that data to the server to handle them.
 
-
-
-
+  The Client.py script is the program that provides the Graphical Interface and alows the players to choose Nickname and their move (Rock,Paper or Scissors). When a player chooses a nickname or makes a move, the client program sends that data to the server to handle them.
 
 **For clarification purposes, DDoS means Distributed Denial of Service, when it happens from one system the term **"Distributed"** makes no sense thats why its called DoS Attack*
 
