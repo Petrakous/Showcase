@@ -13,7 +13,7 @@ Hacks is a folder which includes some tools that hackers use to gain illegal acc
 
 The folder BotNet has 3 subfolders which have tools that compile the main program which is inside the "Main Program" folder. The main program is divided in 2 scripts of which the one is the server and the other is the client.
 
-- **1A. Main Program**
+- **A. Main Program**
   
    - Server.py
 
@@ -29,7 +29,7 @@ The folder BotNet has 3 subfolders which have tools that compile the main progra
   - The program is also undetectable from most antiviruses including Kaspersky, Bitdefender, Avast, Malwarebytes and other popular alternatives.
 
 
-- **1B. DDoSAttack**
+- **B. DDoSAttack**
 
   - DDoSAttack.py 
 
@@ -37,7 +37,7 @@ The folder BotNet has 3 subfolders which have tools that compile the main progra
 
     This script was created to do exactly whats mentioned above. It can send hundreds or even thousands (depending on the systems CPU and Network resources) of requests per system every second, to a website. It also has the feature of hiding the systems real identity by sending requests through Anonymous proxies**.
 
-- **1C. KeyboardRecorder**
+- **C. KeyboardRecorder**
 
   - Recorder.py
 
@@ -45,7 +45,7 @@ The folder BotNet has 3 subfolders which have tools that compile the main progra
 
     As mentioned above this script records every key pressed on the infected machine's keyboard and sends it to the server/hacker.
 
-- **1D. WebScraper**
+- **D. WebScraper**
 
   - Proxies.py
 
