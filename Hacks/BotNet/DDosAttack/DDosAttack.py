@@ -1,4 +1,3 @@
-#DN = www.marmaridis.gr | IP = 88.198.23.34
 #DN = www.dstat.cc | IP = 104.21.68.158
 
 
